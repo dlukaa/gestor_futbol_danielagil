@@ -1,4 +1,4 @@
-# Gestor de Fútbol
+# Gestor de Fútbol (gestor_futbol_danielagil)
 
 ## Descripción
 Módulo de Odoo para la gestión integral de clubes de fútbol. Este módulo permite administrar:
