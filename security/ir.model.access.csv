@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_football_club,football.club,model_football_club,base.group_user,1,1,1,1
+access_football_player,football.player,model_football_player,base.group_user,1,1,1,1
+access_football_match,football.match,model_football_match,base.group_user,1,1,1,1
+access_football_competition,football.competition,model_football_competition,base.group_user,1,1,1,1
+access_football_coach,football.coach,model_football_coach,base.group_user,1,1,1,1

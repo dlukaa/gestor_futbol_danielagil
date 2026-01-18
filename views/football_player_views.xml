@@ -1,0 +1,67 @@
+<odoo>
+    <data>
+        <!-- Form View -->
+        <record id="view_football_player_form" model="ir.ui.view">
+            <field name="name">football.player.form</field>
+            <field name="model">football.player</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="name"/>
+                                <field name="position"/>
+                                <field name="number"/>
+                                <field name="club_id"/>
+                            </group>
+                            <group>
+                                <field name="birthdate"/>
+                                <field name="age"/>
+                                <field name="salary"/>
+                                <field name="is_star"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Tree View -->
+        <record id="view_football_player_tree" model="ir.ui.view">
+            <field name="name">football.player.tree</field>
+            <field name="model">football.player</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="club_id"/>
+                    <field name="position"/>
+                    <field name="age"/>
+                    <field name="is_star"/>
+                </tree>
+            </field>
+        </record>
+        
+        <!-- Search View -->
+         <record id="view_football_player_search" model="ir.ui.view">
+            <field name="name">football.player.search</field>
+            <field name="model">football.player</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="name"/>
+                    <field name="club_id"/>
+                    <field name="position"/>
+                    <filter name="stars" string="Jugadores Estrella" domain="[('is_star', '=', True)]"/>
+                </search>
+            </field>
+        </record>
+
+        <!-- Action -->
+        <record id="action_football_player" model="ir.actions.act_window">
+            <field name="name">Jugadores</field>
+            <field name="res_model">football.player</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem id="menu_football_player_list" parent="menu_football_player" action="action_football_player" sequence="10"/>
+    </data>
+</odoo>

@@ -1,0 +1,12 @@
+<odoo>
+    <data>
+        <!-- Top Level Menu -->
+        <menuitem id="menu_football_root" name="Gestor de Fútbol" sequence="10"/>
+
+        <!-- Categories -->
+        <menuitem id="menu_football_club" name="Clubes" parent="menu_football_root" sequence="10"/>
+        <menuitem id="menu_football_player" name="Jugadores" parent="menu_football_root" sequence="20"/>
+        <menuitem id="menu_football_match" name="Partidos" parent="menu_football_root" sequence="30"/>
+        <menuitem id="menu_football_configuration" name="Configuración" parent="menu_football_root" sequence="40"/>
+    </data>
+</odoo>
