@@ -61,6 +61,6 @@ gestor_futbol/
 
 ## 👤 Autor
 
-Desarrollado por **Daniel Gil**.
+Desarrollado por **Daniela Gil**.
 *Repositorio GitHub*: [dlukaa/gestor_futbol_danielagil](https://github.com/dlukaa/gestor_futbol_danielagil)
 
