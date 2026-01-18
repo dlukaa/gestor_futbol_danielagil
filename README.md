@@ -8,6 +8,8 @@
 
 Este módulo ha sido desarrollado como parte de la **Práctica 11** de Sistemas de Gestión Empresarial.
 
+📄 **[Ver Memoria del Proyecto (PDF)](Gil_Rodríguez_Daniela_Memoria_ProyectooOdoo_DAM25.pdf)**
+
 ---
 
 ## ✨ Características Principales
